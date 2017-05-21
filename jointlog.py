@@ -7,7 +7,7 @@ def select_tail(data):
     print(tail)
     return tail, line_no
 
-plc_data = select_tail("sample_csv.csv")
+plc_data = select_tail("sample_csv_a.csv")
 recorder_data = select_tail("sample_csv_b.csv")
 join = plc_data[0] + "," + recorder_data[0]
 
